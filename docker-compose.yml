@@ -1,0 +1,10 @@
+version: '2'
+services:
+  plex:
+    build: .
+    ports:
+      - "10000:8080"
+    volumes:
+      - ${SABNZBD_CONFIG_DIR}:/config/
+      - ${SABNZBD_DATA_DIR}:/data/
+    restart: always
