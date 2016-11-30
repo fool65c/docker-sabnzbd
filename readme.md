@@ -10,8 +10,8 @@ RUN useradd --system --uid 1000 -M --shell /usr/sbin/nologin sabnzbd
 You must export the Config dir and data dir before running
 
 ```bash
-export SABNZBD_CONFIG_DIR=<config_dir>
-export $SABNZBD_DATA_DIR=<data_dir>
+export SABNZBD_CONFIG_DIR=/srv/download/
+export SABNZBD_CONFIG_DIR=/var/lib/application/sabnzbd/
 ```
 
  To start run the following
