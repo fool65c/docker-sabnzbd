@@ -1,6 +1,6 @@
 version: '2'
 services:
-  plex:
+  sabnzbd:
     build: .
     ports:
       - "10000:8080"
