@@ -30,4 +30,4 @@ RUN chown sabnzbd /data
 #run 
 USER sabnzbd
 
-CMD ["/usr/bin/sabnzbdplus","--config-file","/config","--console","--server", "0.0.0.0:8080"]
+CMD ["/usr/bin/sabnzbdplus","--config-file","/config","--console","--server", "8080"]
